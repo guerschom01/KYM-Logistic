@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYM Logistic Import Export</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1568708165694-0b76a5c60df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px #000;
+            text-align: center;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 250px;
+        }
+        form {
+            background: white;
+            padding: 30px;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KYM Logistic Import Export</h1>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#map">Localisation</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Transportons vos marchandises au-delà des frontières</h2>
+</section>
+
+<section class="content" id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Importation</h3>
+            <p>Nous importons vos marchandises avec rapidité et sécurité depuis le monde entier.</p>
+        </div>
+        <div class="service">
+            <h3>Exportation</h3>
+            <p>Nous exportons vos produits avec une gestion professionnelle des formalités douanières.</p>
+        </div>
+        <div class="service">
+            <h3>Logistique</h3>
+            <p>Solutions personnalisées pour le transport maritime, aérien et terrestre.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content" id="contact">
+    <h2>Contactez-nous</h2>
+    <form action="mailto:mukosaguerschom04@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Nom" placeholder="Votre nom" required>
+        <input type="email" name="Email" placeholder="Votre email" required>
+        <textarea name="Message" rows="5" placeholder="Votre message..." required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<section class="content" id="map">
+    <h2>Notre Localisation</h2>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12234.140626361972!2d33.3637!3d35.1746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dfcc41a8289f6f%3A0x61d2a1823e5bd7f2!2sNicosie!5e0!3m2!1sfr!2str!4v1681111111111" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</section>
+
+<footer>
+    <p>&copy; 2025 KYM Logistic Import Export - Guerschom Kyundu Moksa | Téléphone : +90 548 826 79 27 | Email : mukosaguerschom04@gmail.com</p>
+</footer>
+
+</body>
+</html>
